@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Method notes</title>
-<meta name="description" content="What an absence is, how far the proxy can be pushed, and the three reasons the null at the end is not a finding that rest does not work.">
+<meta name="description" content="Short isolated absences are a proxy, not confirmed healthy-rest decisions. Minor injuries, illness and personal reasons can have the same pattern. Performance around these absences">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
 <style>
 :root{
@@ -99,21 +99,22 @@ figure img{display:block;width:100%;height:auto;border:1px solid var(--rule);bor
 </style>
 </head>
 <body>
-<header class="bar"><div class="wrap"><span class="slug">spurs-rest-policy</span><nav><a href="../index.html">findings</a><a href="https://github.com/jmsmarrelli/spurs-rest-policy">repository</a><a href="https://jmsmarrelli.github.io/basketball-analytics/">all projects</a></nav></div></header>
+<header class="bar"><div class="wrap"><span class="slug">spurs-rest-policy</span><nav><a href="../index.html">findings</a></nav></div></header>
 <main><div class="wrap">
 <h1>Method notes</h1>
+<p>Short isolated absences are a proxy, not confirmed healthy-rest decisions. Minor injuries, illness and personal reasons can have the same pattern. Performance around these absences is observational; this design cannot identify what a rest policy caused or any championship payoff.</p>
 <p>What an absence is, how far the proxy can be pushed, and the three reasons the
 null at the end is not a finding that rest does not work.</p>
 <h2>The definitional problem, stated once</h2>
-<p>The public box score has a flag for "did not play" and it has the absence of a
+<p>The public box score has a flag for &quot;did not play&quot; and it has the absence of a
 row. Neither carries a reason. There is no rest field, there never was one, and
 no amount of care with the rest of the file conjures one up.</p>
 <p>So the object of study is the <strong>shape</strong> of an absence, not its cause:</p>
 <ul>
 <li><strong>isolated</strong> — one or two games missed, with games played on both sides, inside
-  a single season.</li>
+a single season.</li>
 <li><strong>everything else</strong> — longer runs, and absences that run to the end or start of
-  a season.</li>
+a season.</li>
 </ul>
 <p>Isolated absences are treated as <em>probably planned</em>. Longer ones are not treated
 as injuries; they are left unlabelled, because a ten-game absence can be a knee,
@@ -131,7 +132,7 @@ proves nothing, but a rule that failed it would not be worth continuing with.
 a back-to-back, 2.58% on one day's rest, 2.46% on two and 1.85% on three or
 more — monotone, and more than double end to end.</p>
 <p>This one is the <em>single-player</em> rate: any rotation player taking an isolated
-absence. The two-player "planned night off" is the unit for everything that
+absence. The two-player &quot;planned night off&quot; is the unit for everything that
 follows about how often teams did it and what it cost, but the validation is
 better done on the larger sample.</p>
 <p><strong>The placebo on the same axis.</strong> Longer absences run 12.88%, 12.62%, 11.82% and
@@ -152,7 +153,7 @@ player who is rested so heavily that he falls below forty games stops being a
 rotation player and his absences disappear from the panel. That biases the
 measured rest rate down in exactly the seasons the project is most interested in,
 so the trend in figure 01 is if anything conservative.</p>
-<h2>A "planned night off"</h2>
+<h2>A &quot;planned night off&quot;</h2>
 <p>Two or more rotation players taking an isolated absence in the same game. One
 absence is a player; two at once is a decision.</p>
 <p>The counts, ranks and the whole ledger use the two-player version. The
@@ -189,7 +190,7 @@ standard error 1.19.</p>
 <p>Then the same correlation <em>inside</em> each franchise's own seasons. San Antonio's is
 +0.45 across sixteen postseasons and ranks 2nd of 23 franchises with eight or
 more. Thirteen are negative and four are below −0.55. The between-franchise spread
-is enormous and centered on zero, which is what sixteen noisy observations look
+is enormous and centred on zero, which is what sixteen noisy observations look
 like when you go looking inside the one case that generated the hypothesis.</p>
 <p>This is the most useful thing in the repository. The Spurs' record is real, it
 points the right way, and it is not evidence — because the same calculation on
@@ -203,10 +204,10 @@ Testing it needs injury data, which is not in this file and is not reliably
 public anywhere.</p>
 <p><strong>The intervals are wide enough to matter.</strong> The playoff slope's interval runs
 from −3.1 to +1.6 points a game. A front office would care a great deal about
-either end of that. "Not distinguishable from zero" is not "zero", and the
+either end of that. &quot;Not distinguishable from zero&quot; is not &quot;zero&quot;, and the
 difference is the entire practical question.</p>
 <p><strong>The ledger's first two rows overlap.</strong> 110 of the 971 games following a rest
-night were rest nights themselves. The "every other game" row is the complement
+night were rest nights themselves. The &quot;every other game&quot; row is the complement
 of the union rather than the third slice of a partition, and the bounce estimate
 carries a little of the cost inside it.</p>
 <p><strong>Games are treated as independent</strong> when computing the intervals on the ledger.
@@ -216,12 +217,13 @@ of the −2.70, which is the only thing that number is used for.</p>
 <p><strong>Selection into resting is not random and is only partly controlled.</strong> Teams
 rest when they are old, when the seed is won, and when a player is nursing
 something minor that never becomes an injury absence. The third of those is the
-worst: it means the "planned" absences are enriched for players who were slightly
+worst: it means the &quot;planned&quot; absences are enriched for players who were slightly
 hurt, which is exactly the population whose next game would be worse anyway.</p>
 <p><strong>Regular season only for the ledger, 2003-04 to 2022-23; nineteen postseasons
 for the April test</strong>, because the 2022-23 playoffs are not in the mirror this
 reads.</p>
+
 </div></main>
-<footer class="foot"><div class="wrap"><span>spurs-rest-policy</span><span>figures and tables regenerated by the pipeline in this repository</span></div></footer>
+<footer class="foot"><div class="wrap"><span>spurs-rest-policy</span><span>source, results and validation notes in the repository</span></div></footer>
 </body>
 </html>

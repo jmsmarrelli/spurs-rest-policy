@@ -330,7 +330,7 @@ def fig_playoffs(d: pd.DataFrame, fit: dict, corr: pd.DataFrame) -> None:
                    f"{fit['se_per_10pp']:.2f}. Right: the same correlation computed inside each "
                    f"franchise with eight or more postseasons. San Antonio's own record is the "
                    f"evidence everyone has in mind, and it sits in the right tail of a "
-                   f"distribution centered on nothing. The 2022-23 postseason is not in the "
+                   f"distribution centred on nothing. The 2022-23 postseason is not in the "
                    f"mirror this reads.")
     fig.tight_layout()
     fig.savefig(FIG / "05_playoffs.png")

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>What resting the Big Three actually bought</title>
-<meta name="description" content="Gregg Popovich did not invent sitting healthy players, but his is the name most attached to the league&#x27;s rules about it. In November 2012 he sent Tim Duncan, Tony Parker, Manu Ginó">
+<title>Short absences among the Spurs&#x27; Big Three</title>
+<meta name="description" content="What happened around short isolated player absences? Public box scores identify games missed, but usually do not establish why. This study uses one- or two-game absences bracketed ">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
 <style>
 :root{
@@ -99,256 +99,91 @@ figure img{display:block;width:100%;height:auto;border:1px solid var(--rule);bor
 </style>
 </head>
 <body>
-<header class="bar"><div class="wrap"><span class="slug">spurs-rest-policy</span><nav><a href="docs/method.html">method</a><a href="https://github.com/jmsmarrelli/spurs-rest-policy">repository</a><a href="https://jmsmarrelli.github.io/basketball-analytics/">all projects</a></nav></div></header>
+<header class="bar"><div class="wrap"><span class="slug">spurs-rest-policy</span><nav><a href="docs/method.html">method</a></nav></div></header>
 <main><div class="wrap">
-<h1>What resting the Big Three actually bought</h1>
-<p>Gregg Popovich did not invent sitting healthy players, but his is the name most
-attached to the league's rules about it. In November 2012 he sent Tim Duncan, Tony Parker,
-Manu Ginóbili and Danny Green home from Miami before a nationally televised game
-and the commissioner fined the franchise $250,000. The practice has a name now,
-and it has a folklore: that resting was how the Spurs did it all along, and that
-it bought their championships one night off at a time.</p>
-<p>Twenty seasons of box scores, 23,934 games, 338,874 rotation-player game slots,
-2003-04 to 2022-23.</p>
-<p><strong>The reputation is real, and it starts later than the story says — after the
-2005 and 2007 titles, not before them. What it cost is measurable. What it bought
-is not.</strong></p>
-<hr>
-<h2>The column that does not exist</h2>
-<p>The box score records that a player did not play. It does not record <em>why</em>. There
-is no field for rest, injury, suspension or a newborn, and there never was.</p>
-<p>So this project does not observe rest. It observes absences and splits them by
-shape. <strong>An absence of one or two games, with games played on both sides of it,
-inside the same season</strong> is the shape a planned night off makes. A torn ligament
-does not make that shape.</p>
-<p>That is the whole inference, and it is testable twice over. First, on the one
-night everybody knows. The rule is given no dates, no names and no knowledge that
-29 November 2012 exists:</p>
+<h1>Short absences among the Spurs' Big Three</h1>
+<p>What happened around short isolated player absences? Public box scores identify games missed, but usually do not establish why. This study uses one- or two-game absences bracketed by appearances in the same season as a descriptive proxy. It covers 2003–04 through 2022–23.</p>
+<h2>Game-performance comparison</h2>
+<p>The outcome is margin relative to a fitted team-season and schedule baseline, in points per game. “Two or more sat” means the absence rule flagged multiple rotation players; it does not certify a healthy-rest decision.</p>
 <div class="tw"><table>
 <thead>
 <tr>
-<th>San Antonio, 29 November 2012</th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Tim Duncan</td>
-<td>did not play</td>
-<td><strong>isolated, 1 game</strong></td>
-</tr>
-<tr>
-<td>Tony Parker</td>
-<td>did not play</td>
-<td><strong>isolated, 1 game</strong></td>
-</tr>
-<tr>
-<td>Manu Ginóbili</td>
-<td>did not play</td>
-<td><strong>isolated, 1 game</strong></td>
-</tr>
-<tr>
-<td>Danny Green</td>
-<td>did not play</td>
-<td><strong>isolated, 1 game</strong></td>
-</tr>
-<tr>
-<td>Kawhi Leonard</td>
-<td>not on the active list</td>
-<td>18-game absence, not flagged</td>
-</tr>
-<tr>
-<td>Boris Diaw, Tiago Splitter, Gary Neal</td>
-<td>played</td>
-<td></td>
-</tr>
-</tbody>
-</table></div>
-<p>It finds the four players Popovich sent home and leaves out the one who was
-actually hurt.</p>
-<p>Second, and more usefully, on the whole sample:</p>
-<figure><img loading="lazy" alt="Validation" src="figures/02_validation.png"></figure>
-<div class="tw"><table>
-<thead>
-<tr>
-<th>Days off before the game</th>
-<th>Isolated absences</th>
-<th>Longer absences</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>None (back-to-back)</td>
-<td class="num"><strong>3.80%</strong></td>
-<td class="num">12.88%</td>
-</tr>
-<tr>
-<td>One</td>
-<td class="num">2.58%</td>
-<td class="num">12.62%</td>
-</tr>
-<tr>
-<td>Two</td>
-<td class="num">2.46%</td>
-<td class="num">11.82%</td>
-</tr>
-<tr>
-<td>Three or more</td>
-<td class="num"><strong>1.85%</strong></td>
-<td class="num">11.17%</td>
-</tr>
-</tbody>
-</table></div>
-<p>Isolated absences more than double from three days' rest to none, a gradient of
-1.9 percentage points. Longer absences move by 1.7 points on a base five times
-the size. The proxy tracks the thing a coach
-schedules around; the alternative does not, because a knee does not know it is a
-back-to-back.</p>
-<p>Opponent strength barely matters either way — 2.98% against the weakest quarter
-of opponents, 2.67% against the strongest — which is worth knowing, because
-"they only did it against bad teams" is the first thing anyone says.</p>
-<hr>
-<h2>When it actually started</h2>
-<figure><img loading="lazy" alt="League trend" src="figures/01_league_trend.png"></figure>
-<p>Across the league the rate has doubled: 2.0% of rotation player-games lost to an
-isolated absence in 2003-04, 4.4% in 2022-23.</p>
-<p>San Antonio's own path is the surprise.</p>
-<div class="tw"><table>
-<thead>
-<tr>
-<th></th>
-<th>Planned nights off with two or more rested</th>
-<th>League rank</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2003-04 to 2007-08</td>
-<td><strong>1</strong> in five seasons</td>
-<td>10th to 20th</td>
-</tr>
-<tr>
-<td>2011-12 to 2016-17</td>
-<td><strong>36</strong> in six seasons</td>
-<td>1st, 2nd, 1st, 5th, 1st, 1st</td>
-</tr>
-</tbody>
-</table></div>
-<p><strong>Through the 2005 and 2007 championships — the two the data can see — the Spurs
-barely did this at all.</strong> They sat below the league average in every one of their first six
-seasons in the sample. The behavior everybody associates with those teams starts
-around 2009-10, arrives properly in 2011-12, and peaks, for the Duncan era, in
-2015-16 at nine nights — eleven per cent of the schedule — with Duncan at 39.</p>
-<p>Over twenty seasons they still lead the league, and not narrowly:</p>
-<figure><img loading="lazy" alt="Franchises" src="figures/03_franchises.png"></figure>
-<p><strong>4.6% of their games, against 3.6% for Brooklyn over eleven seasons and 3.2% for
-the next franchise present for all twenty.</strong> Seventy-three nights with two or more rotation players sitting out, and the modern peak is
-2022-23, a tanking season, which is a different thing wearing the same clothes.</p>
-<hr>
-<h2>The ledger</h2>
-<p>Every number below is a residual from one fit: team-season strengths,
-season-by-season home advantage, back-to-backs and schedule density, across all
-23,934 games. R² 0.228, residual standard deviation 11.8 points.</p>
-<figure><img loading="lazy" alt="Ledger" src="figures/04_ledger.png"></figure>
-<div class="tw"><table>
-<thead>
-<tr>
-<th></th>
+<th>Split</th>
 <th>Games</th>
-<th>Margin above expectation</th>
+<th>Margin vs expected</th>
+<th>95% lower</th>
+<th>95% upper</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>On a night two or more sat</strong></td>
+<td>On a night two or more sat</td>
 <td class="num">971</td>
-<td><strong>−2.70</strong> (95%: −3.50 to −1.90)</td>
+<td class="num">-2.698</td>
+<td class="num">-3.497</td>
+<td class="num">-1.898</td>
 </tr>
 <tr>
 <td>The next game</td>
 <td class="num">971</td>
-<td>−0.25 (−1.02 to +0.51)</td>
+<td class="num">-0.254</td>
+<td class="num">-1.015</td>
+<td class="num">0.507</td>
 </tr>
 <tr>
 <td>Every other game</td>
 <td class="num">46,036</td>
-<td class="num">+0.05</td>
+<td class="num">0.053</td>
+<td class="num">-0.054</td>
+<td class="num">0.161</td>
 </tr>
 </tbody>
 </table></div>
-<p>Those first two groups overlap: 110 of the 971 "next games" were themselves rest
-nights, because these teams sometimes sat people twice in a week. It pushes the
-bounce estimate down slightly and it is not enough to make a null out of anything
-that was not already one.</p>
-<p><strong>The cost is real and it is about 2.7 points a game.</strong> That is what
-it looks like to play a game without two of your rotation.</p>
-<p><strong>The bounce is not there.</strong> The game after a planned night off is played to
-expectation, not above it. Whatever the rest did, it did not show up the
-following night.</p>
-<hr>
-<h2>And April?</h2>
-<p>The version of the claim that actually matters is not about the next game. It is
-that a season of managed minutes buys a fresher team in the playoffs.</p>
-<figure><img loading="lazy" alt="Playoffs" src="figures/05_playoffs.png"></figure>
-<p>Across 304 playoff team-seasons, the relationship between a team's regular-season
-rest and how much better it played in the postseason than its regular season
-predicted is <strong>−0.73 points per ten percentage points of extra rest, against a
-standard error of 1.19</strong>. A correlation of −0.04. Nothing.</p>
-<p>Here is the part worth sitting with. Inside San Antonio's own sixteen
-postseasons, that correlation is <strong>+0.45</strong>. Their best over-performances (2013-14
-at +5.5 a game, 2012-13 at +4.2) are exactly the seasons they rested most, and
-their worst (2008-09 at −8.2, 2010-11 at −6.4) are seasons they barely rested at
-all. If you had only the Spurs in front of you, you would believe the story.</p>
-<p>Run the identical correlation inside every franchise with eight or more
-postseasons and San Antonio ranks <strong>2nd of 23</strong> — behind Cleveland, ahead of
-Milwaukee, with thirteen franchises negative and four of them below −0.55. The
-distribution is centered on nothing and San Antonio sits in its right tail. That
-is what a null looks like from inside the case that inspired the question.</p>
-<hr>
-<h2>What I would not claim</h2>
-<p>That resting doesn't work. This data cannot show that, and three specific things
-stop it.</p>
-<p><strong>The teams that rest are not a random sample.</strong> They rest because they are old,
-or because the seed is already won. Team-season effects absorb the average of
-that; they do not absorb <em>when</em> inside a season it happened.</p>
-<p><strong>Availability in April is not measured here.</strong> The mechanism everyone actually
-means is "the star is on the floor in May instead of in a suit". A model of
-playoff <em>margin</em> prices how well they played, not whether the best player was
-available to play at all, and that is probably where the effect lives if it
-exists.</p>
-<p><strong>The interval is wide enough to matter.</strong> The playoff slope runs from −3.1 to
-+1.6 points a game. Either end of that is something a front office would care a
-great deal about, and "not distinguishable from zero" is not "zero".</p>
-<p>The honest summary is narrower than the headline and more useful than it: the
-cost of a rest night is about 2.7 points and can be measured from twenty seasons
-of box scores; the benefit, if it is there, is smaller than this instrument can
-see.</p>
-<hr>
-<h2>Running it</h2>
-<pre><code class="language-bash">pip install -r requirements.txt
-python src/run_01_build.py   # box scores -&gt; the attendance panel and schedule
-python src/run_02_rest.py    # validate the proxy, price the ledger, figures 01-05
+<p>Source: <a href="output/ledger.csv">ledger.csv</a>.</p>
+<p>The next-game interval includes zero. That result does not show that rest has no benefit or demonstrate that the study had enough power to detect an operationally useful effect. The first and second groups overlap for some games.</p>
+<figure><img loading="lazy" src="figures/04_ledger.png" alt="Game-performance comparisons" /></figure>
+<h2>Playoff association</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Slope per 10 percentage points</th>
+<th>Standard error</th>
+<th>t statistic</th>
+<th>Observations</th>
+<th>Correlation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="num">-0.732</td>
+<td class="num">1.192</td>
+<td class="num">-0.614</td>
+<td class="num">304</td>
+<td class="num">-0.035</td>
+</tr>
+</tbody>
+</table></div>
+<p>Source: <a href="output/playoff_fit.csv">playoff_fit.csv</a>.</p>
+<p>The slope is the difference in playoff scoring-margin overperformance per ten percentage points of the regular-season absence rate. Selection into rest, injuries and playoff qualification complicate interpretation. The small overall correlation does not prove a zero effect, and a stronger Spurs-only correlation is not sufficient evidence of a franchise-specific benefit.</p>
+<h2>What the proxy captures</h2>
+<p>The rule flags known absences and is more common on back-to-backs, but minor injuries and illness can produce the same pattern. A known episode is a face-validity check, not a sensitivity/specificity study of the full sample. Medical records and verified absence reasons are unavailable.</p>
+<figure><img loading="lazy" src="figures/02_validation.png" alt="Absence rates across schedule situations" /></figure>
+<h2>Front office implications</h2>
+<p>The analysis suggests questions for an availability study, not a rest prescription. A useful next step would distinguish planned rest from injury and measure later availability as well as game performance. The present observational comparison cannot estimate an optimal rest policy or its championship payoff.</p>
+<h2>Reproduce</h2>
+<p>The historical analysis used Python 3.12 with the pinned dependencies below. From this repository:</p>
+<pre><code class="language-bash">python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+make fetch-data PY=python
+make all PY=python
+make report site PY=python
 </code></pre>
-<p>Or <code>make all</code>. Under a minute.</p>
-<pre><code>src/
-  config.py      paths, seasons, who counts as a rotation player
-  rest.py        absences, their shape, and the schedule they sit in
-  model.py       the margin model the ledger is measured against
-  style.py       one place that decides what every figure looks like
-  run_0*.py      the pipeline, in order
-output/          every number quoted above, as CSV
-figures/         five figures, regenerated from scratch by the pipeline
-docs/method.md   longer notes, including what the proxy can and cannot bear
-</code></pre>
-<h2>Data</h2>
-<p>Player box scores from
-<a href="https://github.com/sportsdataverse/hoopR-data">sportsdataverse/hoopR-data</a>, a
-mirror of ESPN's public feeds. <code>data/README.md</code> has the fetch step and the
-column that does not exist.</p>
-<h2>License</h2>
-<p>MIT. See <code>LICENSE</code>.</p>
+<p><code>make all</code> verifies source hashes before running the analyses in order. A missing or changed input stops the build. Data downloads need network access; article rendering uses the included result tables. See <a href="data/source_manifest.json">the source manifest</a>, <a href="docs/method.md">method notes</a> and <a href="VALIDATION_CURRENT.md">current validation record</a> for the distinction between a source rebuild and checks of delivered outputs.</p>
+<p>Season keys in CSV files use the <strong>ending year</strong>: <code>2025</code> means 2024–25. Display tables use full season labels. The MIT license covers code; third-party data retain their providers' rights and terms.</p>
+<p><a href="https://github.com/jmsmarrelli/basketball-analytics">Portfolio</a> · <a href="PROVENANCE.md">AI assistance and provenance</a></p>
+
 </div></main>
-<footer class="foot"><div class="wrap"><span>spurs-rest-policy</span><span>figures and tables regenerated by the pipeline in this repository</span></div></footer>
+<footer class="foot"><div class="wrap"><span>spurs-rest-policy</span><span>source, results and validation notes in the repository</span></div></footer>
 </body>
 </html>

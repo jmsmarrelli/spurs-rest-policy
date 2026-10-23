@@ -1,5 +1,8 @@
 # Method notes
 
+Short isolated absences are a proxy, not confirmed healthy-rest decisions. Minor injuries, illness and personal reasons can have the same pattern. Performance around these absences is observational; this design cannot identify what a rest policy caused or any championship payoff.
+
+
 What an absence is, how far the proxy can be pushed, and the three reasons the
 null at the end is not a finding that rest does not work.
 
@@ -111,7 +114,7 @@ standard error 1.19.
 Then the same correlation *inside* each franchise's own seasons. San Antonio's is
 +0.45 across sixteen postseasons and ranks 2nd of 23 franchises with eight or
 more. Thirteen are negative and four are below −0.55. The between-franchise spread
-is enormous and centered on zero, which is what sixteen noisy observations look
+is enormous and centred on zero, which is what sixteen noisy observations look
 like when you go looking inside the one case that generated the hypothesis.
 
 This is the most useful thing in the repository. The Spurs' record is real, it
