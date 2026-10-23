@@ -1,0 +1,122 @@
+[
+  {
+    "path": "data/raw/player_box/player_box_2004.csv.gz",
+    "sha256": "de5ad6c9470ef239b3bf96bdd247261e258e17722c057bf130c1cc47ce4262cb",
+    "bytes": 1329003,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2004.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2005.csv.gz",
+    "sha256": "008920510984ef51bee6c6ac56c35d5d436a0c0fae3d9f0047d10f8783650491",
+    "bytes": 1386578,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2005.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2006.csv.gz",
+    "sha256": "dbf73acdc4f37b78957fb8ed9697d7492a058f107c3120b4b5d8702927aa6b7b",
+    "bytes": 1590914,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2006.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2007.csv.gz",
+    "sha256": "dceab918ada3181dbbc85baafd2899641721db06cf239e6aa689cbd84c3c9be4",
+    "bytes": 1613535,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2007.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2008.csv.gz",
+    "sha256": "5afaf42954165ddad600589acae8ef92a63035d7226085ac06862320c632e327",
+    "bytes": 1619386,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2008.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2009.csv.gz",
+    "sha256": "6f130abb97495cda0f8bc6494522866a9ebd6db9c403c959181a45f33b8ddd5a",
+    "bytes": 1659116,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2009.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2010.csv.gz",
+    "sha256": "8e7a18b63f62b5c534fa2f0be967a4d3446bb0a5514a74347712dc1171f2b87d",
+    "bytes": 1663697,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2010.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2011.csv.gz",
+    "sha256": "89ed290d1806df447e584396b5a2968155cb24fdf0c674aa0ae6731c38ca8797",
+    "bytes": 1703884,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2011.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2012.csv.gz",
+    "sha256": "659d9ff62c6cba57365f4178521214e6e9f5bf7adb7487eb83fcf14675454399",
+    "bytes": 1401977,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2012.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2013.csv.gz",
+    "sha256": "0aaa2ff1b35f8db442f36600f949396af747a7fd611d03fea8462039f293e594",
+    "bytes": 1609903,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2013.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2014.csv.gz",
+    "sha256": "6d196bacb82cf9c44d2bbc4e1ace2a6a8579dc7e672a1df452983c505affc3b4",
+    "bytes": 1644280,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2014.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2015.csv.gz",
+    "sha256": "a1b160babda836ced37d301522f877d421a7e4595631b65e07fc72946c2f7824",
+    "bytes": 1650432,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2015.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2016.csv.gz",
+    "sha256": "f70d0deedd129bb72140ebaeb0686db6ddd47fb44bd249ae9966400abaf76049",
+    "bytes": 1668223,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2016.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2017.csv.gz",
+    "sha256": "f5ba66bd6fecf89cc4a78edc8065d74fe9e0065a35cf63d4f4e4b12c0d40ca28",
+    "bytes": 1680601,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2017.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2018.csv.gz",
+    "sha256": "6106a39a7f67a22e2a06b261aa35de262e5145fc8048920faadd1b44a8ae1103",
+    "bytes": 1667304,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2018.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2019.csv.gz",
+    "sha256": "295a5fd67042be7ef4fc37a113c0bc8942caf9470bed5a641a5d68ac944451bf",
+    "bytes": 1679490,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2019.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2020.csv.gz",
+    "sha256": "c0ee39cc7a4e4ba0bceacd14f6e5e10f1e82acac9b669615c5fc724ec6a207b0",
+    "bytes": 1466090,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2020.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2021.csv.gz",
+    "sha256": "ed056cdbfd91d70235021617819c6f2687026052c261dfd358a48ac2759e523d",
+    "bytes": 1576401,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2021.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2022.csv.gz",
+    "sha256": "612bb2dedceb2bfac0e4a37a36cd55b60469eb82b64d2900851d051b544f300e",
+    "bytes": 1712064,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2022.csv.gz"
+  },
+  {
+    "path": "data/raw/player_box/player_box_2023.csv.gz",
+    "sha256": "b80e9f715af76f20a5c06e963431d62fafc31145bb40bb90ef202dab26c608a3",
+    "bytes": 1538937,
+    "url": "https://raw.githubusercontent.com/sportsdataverse/hoopR-data/main/nba/player_box/csv/player_box_2023.csv.gz"
+  }
+]
